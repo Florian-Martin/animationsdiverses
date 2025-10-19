@@ -184,9 +184,3 @@ private fun colorForIndex(idx: Int): Color = when (idx % 4) {
     2 -> Color(0xFFFF5722)
     else -> Color(0xFFFFBF8F)
 }
-
-@Preview(showBackground = true)
-@Composable
-fun DirectionalExpandableListCenteredPreview() {
-    DirectionalExpandableListCentered()
-}

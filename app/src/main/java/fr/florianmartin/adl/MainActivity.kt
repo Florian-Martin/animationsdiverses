@@ -1,7 +1,7 @@
 package fr.florianmartin.adl
 
 
- import DirectionalExpandableListCentered
+ import DirectionalExpandableListCentered2
  import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ADLTheme {
-                DirectionalExpandableListCentered()
+                DirectionalExpandableListCentered2()
             }
         }
     }
